@@ -1,7 +1,8 @@
 1. Create a pod 
+```
 kubectl run --generator=run-pod/v1 nginx-pod --image=nginx 
-
-> output: pod/nginx-pod created
+```
+  > output: pod/nginx-pod created
 
 2. List created pod
 kubectl get pods
