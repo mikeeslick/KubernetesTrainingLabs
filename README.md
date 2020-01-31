@@ -10,10 +10,12 @@ Clone the github repository
 ```
 https://github.com/JalapalaNagaraju/KubernetesTrainingLabs.git
 ```
-
+```
 #Lab Structure
-
+```
+```
 ##Kubernetes Core Objects
+```
 ```
 1.Pods
 2.ReplicaSets
