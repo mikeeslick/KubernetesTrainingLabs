@@ -13,59 +13,59 @@ https://github.com/JalapalaNagaraju/KubernetesTrainingLabs.git
 
 #Lab Structure
 ##Kubernetes Core Objects
-Pods
-ReplicaSets
-Deployments
-Namespaces
-Services
+1.Pods
+2.ReplicaSets
+3.Deployments
+4.Namespaces
+5.Services
 
 ##Kubernetes Scheduling
-Manual Scheduling
-Labels and Selectors
-Taints and Tolerations
-Node Affinity
-Resource Limits
-Daemonsets
-Static Pods
-Multiple Scheduler
+1.Manual Scheduling
+2.Labels and Selectors
+3.Taints and Tolerations
+4.Node Affinity
+5.Resource Limits
+6.Daemonsets
+7.Static Pods
+8.Multiple Scheduler
 
 ##Logging & Monitoring
-Monitoring cluster components
-Managing application logs
+1.Monitoring cluster components
+2.Managing application logs
 
 ##Application Lifecycle Management
-Rolling updates & Rollbacks
-Commands and arguments
-Environment variables
-Secrets
-Multi Container Pods
-Init Containers
+1.Rolling updates & Rollbacks
+2.Commands and arguments
+3.Environment variables
+4.Secrets
+5.Multi Container Pods
+6.Init Containers
 
 ##Storage
-Persistent Volume
-Persistent volume Claims
+1.Persistent Volume
+2.Persistent volume Claims
 
 ##Security
-Certificates & API certificates
-Kubeconfig
-RBAC
-Cluster Roles
-Image Security
-Security Contexts
-Network policies
+1.Certificates & API certificates
+2.Kubeconfig
+3.RBAC
+4.Cluster Roles
+5.Image Security
+6.Security Contexts
+7.Network policies
 
 ##Networking
-CNIs
-CoreDNS
-Kube Proxy
-Ingress Networking
+1.CNIs
+2.CoreDNS
+3.Kube Proxy
+4.Ingress Networking
 
 ##Troubleshooting
-Application Troubleshooting
-Control plane Troubleshooting
-Worker node Troubleshooting
+1.Application Troubleshooting
+2.Control plane Troubleshooting
+3.Worker node Troubleshooting
 
 ##Cluster Maintenance
-Os upgrades
-Cluster upgrade
-Backup & Restore
+1.Os upgrades
+2.Cluster upgrade
+3.Backup & Restore
