@@ -10,12 +10,10 @@ Clone the github repository
 ```
 https://github.com/JalapalaNagaraju/KubernetesTrainingLabs.git
 ```
-```
-#Lab Structure
-```
-```
-##Kubernetes Core Objects
-```
+
+# Lab Structure
+
+## Kubernetes Core Objects
 ```
 1.Pods
 2.ReplicaSets
@@ -24,7 +22,7 @@ https://github.com/JalapalaNagaraju/KubernetesTrainingLabs.git
 5.Services
 ```
 
-##Kubernetes Scheduling
+## Kubernetes Scheduling
 ```
 1.Manual Scheduling
 2.Labels and Selectors
@@ -36,13 +34,13 @@ https://github.com/JalapalaNagaraju/KubernetesTrainingLabs.git
 8.Multiple Scheduler
 ```
 
-##Logging & Monitoring
+## Logging & Monitoring
 ```
 1.Monitoring cluster components
 2.Managing application logs
 ```
 
-##Application Lifecycle Management
+## Application Lifecycle Management
 ```
 1.Rolling updates & Rollbacks
 2.Commands and arguments
@@ -52,13 +50,13 @@ https://github.com/JalapalaNagaraju/KubernetesTrainingLabs.git
 6.Init Containers
 ```
 
-##Storage
+## Storage
 ```
 1.Persistent Volume
 2.Persistent volume Claims
 ```
 
-##Security
+## Security
 ```
 1.Certificates & API certificates
 2.Kubeconfig
@@ -69,7 +67,7 @@ https://github.com/JalapalaNagaraju/KubernetesTrainingLabs.git
 7.Network policies
 ```
 
-##Networking
+## Networking
 ```
 1.CNIs
 2.CoreDNS
@@ -77,14 +75,14 @@ https://github.com/JalapalaNagaraju/KubernetesTrainingLabs.git
 4.Ingress Networking
 ```
 
-##Troubleshooting
+## Troubleshooting
 ```
 1.Application Troubleshooting
 2.Control plane Troubleshooting
 3.Worker node Troubleshooting
 ```
 
-##Cluster Maintenance
+## Cluster Maintenance
 ```
 1.Os upgrades
 2.Cluster upgrade
