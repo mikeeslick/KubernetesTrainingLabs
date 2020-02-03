@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: web
+    department: hr
+    tier: frontend
+    env: dev
+  name: exercise-deploymment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web
+      department: hr
+      tier: frontend
+      env: dev
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: payroll
+    spec:
+      containers:
+      - image: nginx
+        name: exercise-container
+        resources: {}
+status: {}
