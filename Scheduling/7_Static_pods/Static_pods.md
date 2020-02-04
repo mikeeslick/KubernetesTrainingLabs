@@ -30,7 +30,7 @@ kubectl edit pod static-busybox-master
 
 7.Run the create-static-pod.sh
 ```
-chmod +x create-static-pod.sh
+chmod +x create-static-obselete-pod.sh
 ```
 ```
 ./create-static-obselete-pod.sh
