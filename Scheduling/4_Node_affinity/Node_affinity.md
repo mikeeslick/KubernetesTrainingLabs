@@ -40,8 +40,7 @@ vim large-deployment.yaml
  Name: master-deployment
  Replicas: 3
  Image: busybox
- Command: sleep
- Arg: 4800
+ Command: sleep 4800
  NodeAffinity: requiredDuringSchedulingIgnoredDuringExecution
  Key: node-role.kubernetes.io/master
  Use the right operator
