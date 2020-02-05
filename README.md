@@ -8,7 +8,7 @@ https://www.katacoda.com/courses/kubernetes/playground
 
 ### Clone the github repository
 ```
-https://github.com/JalapalaNagaraju/KubernetesTrainingLabs.git
+https://github.com/codificationio/KubernetesTrainingLabs.git
 ```
 
 # Lab Structure
