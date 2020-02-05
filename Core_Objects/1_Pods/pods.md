@@ -2,17 +2,10 @@
 ```
 kubectl run --generator=run-pod/v1 nginx-pod --image=nginx 
 ```
-```
-pod/nginx-pod created
-```
 
 2. List created pod
 ```
 kubectl get pods
-```
-```
-NAME        READY   STATUS    RESTARTS   AGE
-nginx-pod   1/1     Running   0          9s
 ```
 
 3. Describe the pod
@@ -24,9 +17,6 @@ kubectl describe pod nginx-pod
 ```
 kubectl delete pod nginx-pod
 ```
-```
-pod "nginx-pod" deleted
-```
 
 5. Create a nginx-pod.yaml with Imparative command
 ```
@@ -37,33 +27,15 @@ kubectl run --generator=run-pod/v1 nginx-pod --image=nginx --dry-run -o=yaml > n
 ```
 ls 
 ```
-```
 
 7. Print the nginx-pod.yaml 
 ```
 cat nginx-pod.yaml
 ```
 
-```
-apiVersion: v1
-kind: Pod
-metadata:
-  creationTimestamp: null
-  labels:
-    run: nginx-pod
-  name: nginx-pod
-spec:
-  containers:
-  - image: nginx
-    name: nginx-pod
-```
-
 8. Create pod from nginx-pod.yaml
 ```
 kubectl create -f nginx-pod.yaml
-```
-```
-pod/nginx-pod created
 ```
 
 9. Edit the pod nginx-pod
