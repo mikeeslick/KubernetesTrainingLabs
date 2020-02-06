@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: my-tolerating-pod
+  name: my-tolerating-pod
+spec:
+  containers:
+  - image: nginx
+    name: my-tolerating-pod
+    resources: {}
+  tolerations:
+  - key: tier
+    value: frontend
+    effect: NoSchedule
+    operator: Equal
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
