@@ -3,7 +3,7 @@
 kubectl get pods,rs,deploy
 ```
 
-2.Create a deploymet
+2.Create a deployment
 ```
 kubectl run nginx-deploy --image=nginx --replicas=3
 ```
